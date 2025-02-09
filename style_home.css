@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+body {
+    background-color:rgb(227, 232, 236);
+}
+.base {
+    height: 100vh;
+}
+
+/* Header */
+.webheader {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    height: 20%;
+}
+.descH {
+    background-color:rgb(111, 144, 172);
+    height: 100px;
+    width: 100%;
+}
+
+/* Section */
+.websection {
+    display: flex;
+    align-items: center;
+    background-color:rgb(172, 111, 111);
+    height: 100%;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+.descS1 {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(111, 172, 119);
+    height: 440px;
+    width: 100%;
+}
+.descS2 {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(111, 172, 119);
+    height: 440px;
+    width: 100%;
+}
+.itens1 {
+    background-color:rgb(111, 117, 172);
+    height: 100%;
+    width: 300px;
+}
+
+/* Footer */
+.webfooter {
+    display: flex;
+    align-items: flex-end;
+    padding: 0px;
+    height: 30%;
+}
+.descF {
+    background-color:rgb(40, 42, 48);
+    height: 200px;
+    width: 100%;
+}

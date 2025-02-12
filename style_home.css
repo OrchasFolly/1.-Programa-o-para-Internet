@@ -46,16 +46,15 @@ body {
 .itens {
     display: flex;
     flex-direction: column;
-    background-color:rgb(231, 233, 250);
+    background-color:aliceblue;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     height: 100%;
     width: 300px;
-    padding: 5px;
+    padding: 10px;
     margin: 20px;
 }
 .description {
-    background-color:rgb(62, 77, 207);
     border-radius: 30px;
     height: 220px;
     width: 100%;
@@ -76,7 +75,36 @@ body {
     font: bold;
     color: white;
     font-size: 25px;
-    width: 90%;
+    width: 100%;
+}
+
+/* datails - html */
+.more-datails {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 100%;
+    width: 800px;
+    padding: 30px;
+    margin: 20px;
+}
+.row-align {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.description-box {
+    border-radius: 30px;
+    height: 220px;
+    width: 270px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGNxnCWa45wd6aL1uyOarsDcBuhzOn9dtfAnGc3DqIh7Pfy1R1T8rTV3FFgrf3fehzMes&usqp=CAU);
+    background-size: 80% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Footer */

@@ -1,0 +1,32 @@
+{
+  "name": "atividade---ds",
+  "version": "1.0.0",
+  "description": "Atividade 1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrchasFolly/1.-Programa-o-para-Internet.git"
+  },
+  "keywords": [
+    "sessão",
+    "nodejs",
+    "servidor",
+    "web",
+    "http",
+    "validação"
+  ],
+  "author": "Roberto Shoiti Komuro e Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrchasFolly/1.-Programa-o-para-Internet/issues"
+  },
+  "homepage": "https://github.com/OrchasFolly/1.-Programa-o-para-Internet#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

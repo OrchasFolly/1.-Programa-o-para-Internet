@@ -35,8 +35,8 @@ app.post("/login", (req, resp) => {
 });
 
 app.get("/logout", (req, resp) => {
-    req.session.autenticado = false
-    resp.redirect("/index.html")
+    req.session.autenticado = false;
+    resp.redirect("/index.html");
 });
 
 // HTTP é um protocolo stateless (não estabelece uma sessão)

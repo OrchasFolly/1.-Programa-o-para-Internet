@@ -36,7 +36,16 @@
                                 <p>Cidade: Boa Vista</p>
                                 <p>Região: Norte</p>
                                 <p>Data de partida: 20/02/2025</p>
-                                <h4>R$: 470,00</h4>
+                                <div class="counter-base">
+                                    <p class="text-margin">Número de lugares:</p>
+                                    <button id="up" class="btn-up">+</button>
+                                    <span id="value">1</span>
+                                    <button id="down" class="btn-down">-</button>
+                                </div>
+                                <div class="totalValue">
+                                    <h4>R$:</h4>
+                                    <h4 id="money">470</h4>
+                                </div>
                                 <div class="btn-align">
                                     <a class="btn-details" href="#">Comprar</a>
                                 </div>
@@ -58,7 +67,7 @@
         </footer>
     </div>
 
-    <script src=""></script>
+    <script src="script_count.js"></script>
     <!-- Bootstrap JS -->
     <!-- 1. jQuery, 2. Popper.js, 3. Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

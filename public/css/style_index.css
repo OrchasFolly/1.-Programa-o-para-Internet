@@ -115,24 +115,51 @@ body {
     background-color: aliceblue;
     border-radius: 30px;
     height: 100%;
-    width: 800px;
+    width: 700px;
     padding: 30px;
     margin: 10px;
 }
 .row-align {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     flex-wrap: wrap-reverse;
 }
 .description-box {
     border-radius: 30px;
-    height: 250px;
+    height: 200px;
     width: 250px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGNxnCWa45wd6aL1uyOarsDcBuhzOn9dtfAnGc3DqIh7Pfy1R1T8rTV3FFgrf3fehzMes&usqp=CAU);
     background-position: center;
     background-repeat: no-repeat;
+}
+.counter-base {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.text-margin {
+    padding-top: 20px;
+}
+#value {
+    font-weight: bold;
+    font-size: 25px;
+}
+.btn-up,.btn-down {
+    border: none;
+    border-radius: 4px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: aliceblue;
+    padding: 5px;
+}
+.totalValue {
+    display: flex;
+    flex-direction: row;
 }
 
 /* login - html */

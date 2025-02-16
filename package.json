@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/OrchasFolly/1.-Programa-o-para-Internet#readme",
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
   }
 }

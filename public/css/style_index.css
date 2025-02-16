@@ -33,6 +33,12 @@ body {
     justify-content: flex-end;
     height: 0px;
 }
+.logout {
+    display: flex;
+    justify-content: flex-end;
+    height: 0px;
+    margin-right: 110px;
+}
 .return {
     display: flex;
     justify-content: flex-start;
@@ -46,7 +52,7 @@ body {
     font: bold;
     color: white;
     font-size: 25px;
-    height: 50px;
+    height: 40px;
     width: 100px;
 }
 /* Section */
@@ -171,3 +177,7 @@ body {
     display: flex;
     align-items: center;
 }
+a:hover {
+    color: white;
+    background-color: rgb(37, 37, 255);
+  }

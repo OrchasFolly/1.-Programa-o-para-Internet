@@ -7,7 +7,11 @@ const btnDown = document.getElementById("down");
 let updateValue = () =>{
     if(places < 1){
         value.innerHTML = 1;
-    } else{
+    }
+    else if(places > 30){
+        value.innerHTML = 30;
+    }
+    else{
         value.innerHTML = places;
         total.innerHTML = qtd * places;
     }
